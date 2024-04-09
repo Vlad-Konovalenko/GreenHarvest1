@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>GreenHarvest</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header-navigation">
+          <a class="header-logo" href="./index.html"
+            ><svg class="logo-icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-vector"></use></svg
+            ><svg class="logo-icon-text" width="146" height="16">
+              <use href="./images/icons.svg#icon-text"></use></svg
+          ></a>
+          <button type="button" class="open-menu-btn">
+            <svg class="menu-open-icon" width="32" height="32">
+              <use href="./images/icons.svg#icon-open-menu"></use>
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero section">
+        <div class="container">
+          <h1 class="hero-title">organic vegetables to your diet today!</h1>
+          <p class="hero-text">
+            Our expertly curated vegetable baskets are made with the freshest,
+            highest quality vegetables available. Fresh Harvest Box has got you
+            covered. Fresh, high-quality vegetables in expertly curated
+            vegetable baskets delivered to you.
+          </p>
+          <picture>
+            <source
+              srcset="./images/hero-desc2x.jpg 2x, ./images/hero-desc.jpg 1x"
+              media="(min-width: 1280px)"
+              width="650"
+              height="800" />
+            <source
+              srcset="
+                ./images/hero-tablet2x.jpg 2x,
+                ./images/hero-tablet.jpg   1x
+              "
+              media="(min-width: 768px)" />
+            <source
+              srcset="./images/hero-2x.jpg 2x, ./images/hero.jpg 1x"
+              media="(min-width: 375px)"
+              width="375"
+              height="370" />
+            <img
+              src="./images/hero-tablet.jpg"
+              alt="vegatabels"
+              width="768"
+              height="539"
+              class="hero-image"
+          /></picture>
+        </div>
+      </section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

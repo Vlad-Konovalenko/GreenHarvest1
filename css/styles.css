@@ -1,0 +1,168 @@
+body {
+    font-family: "Inter Tight", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  button {
+    cursor: pointer;
+    padding: 0;
+  }
+
+  address {
+    font-style: normal;
+  }
+
+  img {
+    display: block;
+  }
+
+  .container {
+    width: 375px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .text {
+    font-weight: 500;
+font-size: 16px;
+line-height: 125%;
+color: #fbfbfb;
+  }
+
+  .title {
+    font-weight: 600;
+    font-size: 76px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+  }
+/* ===================HEADER==================*/
+
+.header {
+    background-color: #576F35;
+    padding-top: 20px;
+    padding-bottom: 48px;
+}
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+.header-logo {
+}
+.logo-icon {
+    fill: #fff;
+    margin-right: 4px;
+}
+.logo-icon-text {
+    fill: #fff;
+}
+.open-menu-btn {
+    display: block;
+    margin-left: auto;
+    border: none;
+    background-color: transparent;
+}
+.menu-open-icon {
+    fill: transparent;
+    stroke: #fff;
+}
+
+/* ===================HERO==================*/
+.hero {
+    background-color: #576F35;
+}
+.section {
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+color: #fbfbfb;
+    margin-bottom: 20px;
+    max-width: 335px;
+}
+
+.hero-text {
+    font-size: 14px;
+    line-height: 129%;
+color: #fbfbfb;
+max-width: 335px;
+margin-bottom: 40px;
+}
+
+.hero-image {
+    position: relative;
+    left: -20px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+      }
+.header {
+    padding-bottom: 50px;
+}
+      .hero-title {
+        font-size: 76px;
+max-width: 704px;
+margin-bottom: 25px;
+      }
+
+      .hero-text {
+      max-width: 604px;
+      font-size: 16px;
+      margin-bottom: 50px;
+      }
+}
+
+
+
+
+/* --------------------DeskTop-------------------- */
+/* ----------------------------------------------- */
+
+@media screen and (min-width: 1280px) {
+    .container {
+      width: 1280px;
+    }
+}
